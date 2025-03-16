@@ -1,0 +1,40 @@
+Begin Object Class=/Script/Engine.Blueprint Name="BPI_FirstPersonCharacter" ExportPath="/Script/Engine.Blueprint'/Game/FirstPerson/Blueprints/BPI_FirstPersonCharacter.BPI_FirstPersonCharacter'"
+   Begin Object Class=/Script/Engine.EdGraph Name="AsFirstPersonCharacter" ExportPath="/Script/Engine.EdGraph'/Game/FirstPerson/Blueprints/BPI_FirstPersonCharacter.BPI_FirstPersonCharacter:AsFirstPersonCharacter'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/FirstPerson/Blueprints/BPI_FirstPersonCharacter.BPI_FirstPersonCharacter:AsFirstPersonCharacter.K2Node_FunctionEntry_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionResult Name="K2Node_FunctionResult_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionResult'/Game/FirstPerson/Blueprints/BPI_FirstPersonCharacter.BPI_FirstPersonCharacter:AsFirstPersonCharacter.K2Node_FunctionResult_0'"
+      End Object
+   End Object
+   Begin Object Name="AsFirstPersonCharacter" ExportPath="/Script/Engine.EdGraph'/Game/FirstPerson/Blueprints/BPI_FirstPersonCharacter.BPI_FirstPersonCharacter:AsFirstPersonCharacter'"
+      Begin Object Name="K2Node_FunctionEntry_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionEntry'/Game/FirstPerson/Blueprints/BPI_FirstPersonCharacter.BPI_FirstPersonCharacter:AsFirstPersonCharacter.K2Node_FunctionEntry_0'"
+         MetaData=(Category=NSLOCTEXT("", "DCE17C374F0D155AAE6BB0BB882513AF", "FirstPersonCharacter"))
+         ExtraFlags=201457664
+         FunctionReference=(MemberName="AsFirstPersonCharacter")
+         bIsEditable=True
+         NodeGuid=9DAA681344229EA17E10608B6BE23A96
+         CustomProperties Pin (PinId=7AC1DCE74FF1E6D2C35857B4D68E106C,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionResult_0 E2741C304255F7A50F965D9B60F02E3D,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_FunctionResult_0" ExportPath="/Script/BlueprintGraph.K2Node_FunctionResult'/Game/FirstPerson/Blueprints/BPI_FirstPersonCharacter.BPI_FirstPersonCharacter:AsFirstPersonCharacter.K2Node_FunctionResult_0'"
+         FunctionReference=(MemberName="AsFirstPersonCharacter")
+         bIsEditable=True
+         NodePosX=256
+         NodeGuid=7D30B43C42FB881474735DA0EBB94D44
+         CustomProperties Pin (PinId=E2741C304255F7A50F965D9B60F02E3D,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,LinkedTo=(K2Node_FunctionEntry_0 7AC1DCE74FF1E6D2C35857B4D68E106C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=5EF6CCC74333B0F9B612A58CDF23956B,PinName="FirstPersonCharacter",PinType.PinCategory="object",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/Engine.BlueprintGeneratedClass'/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties UserDefinedPin (PinName="FirstPersonCharacter",PinType=(PinCategory="object",PinSubCategoryObject="/Script/Engine.BlueprintGeneratedClass'/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C'"),DesiredPinDirection=EGPD_Input)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_FunctionEntry'K2Node_FunctionEntry_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_FunctionResult'K2Node_FunctionResult_0'"
+      GraphGuid=ECC6E42A40F9CF60F942E5B8C5FF4A89
+   End Object
+   ParentClass="/Script/CoreUObject.Class'/Script/CoreUObject.Interface'"
+   BlueprintType=BPTYPE_Interface
+   BlueprintSystemVersion=2
+   FunctionGraphs(0)="/Script/Engine.EdGraph'AsFirstPersonCharacter'"
+   CategorySorting(0)="First Person Character"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/FirstPerson/Blueprints/BPI_FirstPersonCharacter.BPI_FirstPersonCharacter:AsFirstPersonCharacter",SavedViewOffset=(X=-322.794128,Y=-280.804993),SavedZoomAmount=1.000000)
+   GeneratedClass="/Script/Engine.BlueprintGeneratedClass'BPI_FirstPersonCharacter_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=AFE20FB54651C6E981D0C087D7212E46
+End Object
